@@ -9,4 +9,10 @@
     <string name="descripcion_imagen_tenis">imágen de una raqueta y una pelota de tenis</string>
     <string name="descripcion_imagen_basket">Imagen de una pelota de basket</string>
     <string name="descripcion_imagen_futbol">Imágen de una pelota de futbol</string>
+    <string name="reservar_cancha_tenis">Reservar Cancha Tenis</string>
+    <string name="reservar_cancha_basket">Reservar Cancha Basket</string>
+    <string name="reservar_cancha_futbol">Reservar Cancha Futbol</string>
+    <string name="reservar_parrilla">Reservar Parrilla</string>
+    <string name="reservar_cumplea_os">Reservar Cumpleaños</string>
+    <string name="reservar_turno_gimnasio">Reservar Turno Gimnasio</string>
 </resources>
