@@ -1,6 +1,8 @@
 package com.example.parcial_1_am_acn4av_telesca;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -21,4 +23,17 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
     }
+
+    public void mostrarMensajeProximamente(View v)
+    {
+        TextView text_view_mensaje_prox = findViewById(R.id.mensaje_proximamente);
+        text_view_mensaje_prox.setText(R.string.mensaje_proximamente);
+        if(text_view_mensaje_prox.getVisibility() == TextView.INVISIBLE) {
+            text_view_mensaje_prox.setVisibility(TextView.VISIBLE);
+        }else{
+            text_view_mensaje_prox.setVisibility(TextView.INVISIBLE);
+        }
+    }
+
+
 }

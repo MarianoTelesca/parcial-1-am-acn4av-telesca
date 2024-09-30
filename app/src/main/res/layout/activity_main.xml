@@ -65,7 +65,8 @@
                 android:id="@+id/boton_tenis"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/reservar_cancha_tenis" />
+                android:text="@string/reservar_cancha_tenis"
+                android:onClick="mostrarMensajeProximamente"/>
 
             <ImageView
                 android:id="@+id/imagen_basket"
@@ -78,7 +79,8 @@
                 android:id="@+id/boton_basket"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/reservar_cancha_basket" />
+                android:text="@string/reservar_cancha_basket"
+                android:onClick="mostrarMensajeProximamente"/>
 
             <ImageView
                 android:id="@+id/imagen_futbol"
@@ -91,7 +93,8 @@
                 android:id="@+id/boton_futbol"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/reservar_cancha_futbol" />
+                android:text="@string/reservar_cancha_futbol"
+                android:onClick="mostrarMensajeProximamente"/>
 
         </LinearLayout>
     </ScrollView>
@@ -122,7 +125,8 @@
                 android:id="@+id/boton_parrilla"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/reservar_parrilla" />
+                android:text="@string/reservar_parrilla"
+                android:onClick="mostrarMensajeProximamente"/>
 
             <ImageView
                 android:id="@+id/imagen_cumpleanios"
@@ -135,7 +139,8 @@
                 android:id="@+id/boton_cumpleanios"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/reservar_cumplea_os" />
+                android:text="@string/reservar_cumplea_os"
+                android:onClick="mostrarMensajeProximamente"/>
 
             <ImageView
                 android:id="@+id/imagen_gimnasio"
@@ -148,7 +153,8 @@
                 android:id="@+id/boton_gimnasio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/reservar_turno_gimnasio" />
+                android:text="@string/reservar_turno_gimnasio"
+                android:onClick="mostrarMensajeProximamente"/>
         </LinearLayout>
     </ScrollView>
 
@@ -164,5 +170,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <TextView
+        android:id="@+id/mensaje_proximamente"
+        android:layout_width="231dp"
+        android:layout_height="49dp"
+        android:background="@color/light_yellow"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
