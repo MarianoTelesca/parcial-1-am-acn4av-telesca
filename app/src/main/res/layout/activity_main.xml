@@ -20,10 +20,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <androidx.constraintlayout.utils.widget.MockView
-            android:id="@+id/logoPolideportivo"
+        <ImageView
+            android:id="@+id/imageView"
             android:layout_width="match_parent"
-            android:layout_height="103dp" />
+            android:layout_height="108dp"
+            android:contentDescription="@string/descripcion_logo"
+            app:srcCompat="@drawable/logo" />
 
         <TextView
             android:id="@+id/nombrePolideportivo"
@@ -33,64 +35,79 @@
             android:text="@string/nombre_polideportivo"
             tools:layout_editor_absoluteX="57dp"
             tools:layout_editor_absoluteY="166dp" />
+
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayoutRight"
-        android:layout_width="163dp"
-        android:layout_height="486dp"
-        android:layout_margin="25sp"
-        android:orientation="vertical"
+        android:layout_width="143dp"
+        android:layout_height="480dp"
+        android:layout_marginEnd="50sp"
+        android:layout_marginBottom="25sp"
         android:background="@color/white"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
-        <androidx.constraintlayout.utils.widget.MockView
-            android:id="@+id/instalacionDerecha1"
-            android:layout_width="164dp"
-            android:layout_height="162dp" />
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:contentDescription="@string/descripcion_imagen_parrilla"
+            app:srcCompat="@drawable/parrilla" />
 
-        <androidx.constraintlayout.utils.widget.MockView
-            android:id="@+id/instalacionDerecha2"
-            android:layout_width="match_parent"
-            android:layout_height="162dp" />
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:contentDescription="@string/descripcion_imagen_cumpleanios"
+            app:srcCompat="@drawable/cumpleanos" />
 
-        <androidx.constraintlayout.utils.widget.MockView
-            android:id="@+id/instalacionDerecha3"
-            android:layout_width="match_parent"
-            android:layout_height="162dp" />
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:contentDescription="@string/descripcion_imagen_gimnasio"
+            app:srcCompat="@drawable/gimnasio" />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayoutLeft"
-        android:layout_width="163dp"
-        android:layout_height="486dp"
-        android:layout_margin="25sp"
-        android:orientation="vertical"
+        android:layout_width="143dp"
+        android:layout_height="480dp"
+        android:layout_marginStart="50sp"
+        android:layout_marginBottom="25sp"
         android:background="@color/white"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
-        <androidx.constraintlayout.utils.widget.MockView
-            android:id="@+id/mockViewLeft1"
-            android:layout_width="164dp"
-            android:layout_height="162dp" />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:contentDescription="@string/descripcion_imagen_tenis"
+            app:srcCompat="@drawable/tenis" />
 
-        <androidx.constraintlayout.utils.widget.MockView
-            android:id="@+id/mockViewLeft2"
-            android:layout_width="match_parent"
-            android:layout_height="162dp" />
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:contentDescription="@string/descripcion_imagen_basket"
+            app:srcCompat="@drawable/basket" />
 
-        <androidx.constraintlayout.utils.widget.MockView
-            android:id="@+id/mockViewLeft3"
+        <ImageView
+            android:id="@+id/imageView4"
             android:layout_width="match_parent"
-            android:layout_height="162dp" />
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/descripcion_imagen_futbol"
+            app:srcCompat="@drawable/futbol" />
     </LinearLayout>
 
     <TextView
         android:id="@+id/descripcion"
-        android:layout_width="360dp"
-        android:layout_height="55dp"
+        android:layout_width="348dp"
+        android:layout_height="77dp"
         android:layout_marginStart="20sp"
         android:layout_marginEnd="20sp"
         android:background="@color/white"

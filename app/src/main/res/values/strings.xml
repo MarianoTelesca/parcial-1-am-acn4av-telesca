@@ -1,5 +1,12 @@
 <resources>
     <string name="app_name">parcial-1-am-acn4av-telesca</string>
     <string name="nombre_polideportivo">Polideportivo Municipal</string>
-    <string name="descripcion">Esta será una breve descripción del objetivo de la app y de la organización // Reserva de las instalaciones de un polideportivo</string>
+    <string name="descripcion">Nuestro polideportivo cuenta con múltiples instalaciones para el disfrute de nuestros socios. Aquí podrán reservarse estas instalaciones para una mejor organización y experiencia</string>
+    <string name="descripcion_logo">Logo del polideportivo</string>
+    <string name="descripcion_imagen_gimnasio">Imagen representativa de un gimnasio</string>
+    <string name="descripcion_imagen_cumpleanios">Imágen de confeti representando un festejo de cumpleaños</string>
+    <string name="descripcion_imagen_parrilla">Imagen de una parrilla</string>
+    <string name="descripcion_imagen_tenis">imágen de una raqueta y una pelota de tenis</string>
+    <string name="descripcion_imagen_basket">Imagen de una pelota de basket</string>
+    <string name="descripcion_imagen_futbol">Imágen de una pelota de futbol</string>
 </resources>
