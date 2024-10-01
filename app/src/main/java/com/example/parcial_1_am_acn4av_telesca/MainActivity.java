@@ -3,6 +3,7 @@ package com.example.parcial_1_am_acn4av_telesca;
 import android.annotation.SuppressLint;
 import android.app.ActionBar;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -36,13 +37,20 @@ public class MainActivity extends AppCompatActivity {
         boton_tenis.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                layout_mensaje.removeAllViews();
                 layout_mensaje.setVisibility(View.VISIBLE);
                 TextView mensaje = new TextView(MainActivity.this);
                 mensaje.setText(R.string.mensaje_proximamente);
                 mensaje.setLayoutParams(new ActionBar.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
 
                 layout_mensaje.addView(mensaje);
+
+                Handler handler = new Handler();
+                handler.postDelayed(new Runnable() {
+                    public void run() {
+                        layout_mensaje.removeView(mensaje);
+                        layout_mensaje.setVisibility(View.INVISIBLE);
+                    }
+                }, 2000);
             }
         });
 
@@ -50,13 +58,20 @@ public class MainActivity extends AppCompatActivity {
         boton_futbol.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                layout_mensaje.removeAllViews();
                 layout_mensaje.setVisibility(View.VISIBLE);
                 TextView mensaje = new TextView(MainActivity.this);
                 mensaje.setText(R.string.mensaje_proximamente);
                 mensaje.setLayoutParams(new ActionBar.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
 
                 layout_mensaje.addView(mensaje);
+
+                Handler handler = new Handler();
+                handler.postDelayed(new Runnable() {
+                    public void run() {
+                        layout_mensaje.removeView(mensaje);
+                        layout_mensaje.setVisibility(View.INVISIBLE);
+                    }
+                }, 2000);
             }
         });
 
@@ -64,13 +79,20 @@ public class MainActivity extends AppCompatActivity {
         boton_basket.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                layout_mensaje.removeAllViews();
                 layout_mensaje.setVisibility(View.VISIBLE);
                 TextView mensaje = new TextView(MainActivity.this);
                 mensaje.setText(R.string.mensaje_proximamente);
                 mensaje.setLayoutParams(new ActionBar.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
 
                 layout_mensaje.addView(mensaje);
+
+                Handler handler = new Handler();
+                handler.postDelayed(new Runnable() {
+                    public void run() {
+                        layout_mensaje.removeView(mensaje);
+                        layout_mensaje.setVisibility(View.INVISIBLE);
+                    }
+                }, 2000);
             }
         });
 
@@ -78,13 +100,20 @@ public class MainActivity extends AppCompatActivity {
         boton_parrilla.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                layout_mensaje.removeAllViews();
                 layout_mensaje.setVisibility(View.VISIBLE);
                 TextView mensaje = new TextView(MainActivity.this);
                 mensaje.setText(R.string.sin_turno_parrilla);
                 mensaje.setLayoutParams(new ActionBar.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
 
                 layout_mensaje.addView(mensaje);
+
+                Handler handler = new Handler();
+                handler.postDelayed(new Runnable() {
+                    public void run() {
+                        layout_mensaje.removeView(mensaje);
+                        layout_mensaje.setVisibility(View.INVISIBLE);
+                    }
+                }, 2000);
             }
         });
 
@@ -92,13 +121,20 @@ public class MainActivity extends AppCompatActivity {
         boton_cumpleanios.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                layout_mensaje.removeAllViews();
                 layout_mensaje.setVisibility(View.VISIBLE);
                 TextView mensaje = new TextView(MainActivity.this);
                 mensaje.setText(R.string.mensaje_proximamente);
                 mensaje.setLayoutParams(new ActionBar.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
 
                 layout_mensaje.addView(mensaje);
+
+                Handler handler = new Handler();
+                handler.postDelayed(new Runnable() {
+                    public void run() {
+                        layout_mensaje.removeView(mensaje);
+                        layout_mensaje.setVisibility(View.INVISIBLE);
+                    }
+                }, 2000);
             }
         });
 
@@ -106,13 +142,20 @@ public class MainActivity extends AppCompatActivity {
         boton_gimnasio.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                layout_mensaje.removeAllViews();
                 layout_mensaje.setVisibility(View.VISIBLE);
                 TextView mensaje = new TextView(MainActivity.this);
                 mensaje.setText(R.string.sin_turno_gimnasio);
                 mensaje.setLayoutParams(new ActionBar.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
 
                 layout_mensaje.addView(mensaje);
+
+                Handler handler = new Handler();
+                handler.postDelayed(new Runnable() {
+                    public void run() {
+                        layout_mensaje.removeView(mensaje);
+                        layout_mensaje.setVisibility(View.INVISIBLE);
+                    }
+                }, 2000);
             }
         });
 
