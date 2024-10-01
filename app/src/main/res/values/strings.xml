@@ -13,7 +13,7 @@
     <string name="reservar_cancha_basket">Reservar Cancha Basket</string>
     <string name="reservar_cancha_futbol">Reservar Cancha Futbol</string>
     <string name="reservar_parrilla">Reservar Parrilla</string>
-    <string name="reservar_cumplea_os">Reservar Cumpleaños</string>
+    <string name="reservar_cumpleanios">Reservar Cumpleaños</string>
     <string name="reservar_turno_gimnasio">Reservar Turno Gimnasio</string>
     <string name="mensaje_proximamente">Estamos trabajando en agregar esa funcionalidad. Vuelve pronto!</string>
 </resources>
