@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
                 layout_mensaje.removeAllViews();
                 layout_mensaje.setVisibility(View.VISIBLE);
                 TextView mensaje = new TextView(MainActivity.this);
-                mensaje.setText(R.string.mensaje_proximamente);
+                mensaje.setText(R.string.sin_turno_parrilla);
                 mensaje.setLayoutParams(new ActionBar.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
 
                 layout_mensaje.addView(mensaje);
@@ -109,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
                 layout_mensaje.removeAllViews();
                 layout_mensaje.setVisibility(View.VISIBLE);
                 TextView mensaje = new TextView(MainActivity.this);
-                mensaje.setText(R.string.mensaje_proximamente);
+                mensaje.setText(R.string.sin_turno_gimnasio);
                 mensaje.setLayoutParams(new ActionBar.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
 
                 layout_mensaje.addView(mensaje);
@@ -122,18 +122,4 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
     }
-
-    /*
-    public void mostrarMensajeProximamente(View v)
-    {
-        TextView text_view_mensaje_prox = findViewById(R.id.mensaje_proximamente);
-        text_view_mensaje_prox.setText(R.string.mensaje_proximamente);
-        if(text_view_mensaje_prox.getVisibility() == TextView.INVISIBLE) {
-            text_view_mensaje_prox.setVisibility(TextView.VISIBLE);
-        }else{
-            text_view_mensaje_prox.setVisibility(TextView.INVISIBLE);
-        }
-    }
-
-     */
 }

@@ -16,4 +16,6 @@
     <string name="reservar_cumpleanios">Reservar Cumpleaños</string>
     <string name="reservar_turno_gimnasio">Reservar Turno Gimnasio</string>
     <string name="mensaje_proximamente">Estamos trabajando en agregar esa funcionalidad. Vuelve pronto!</string>
+    <string name="sin_turno_parrilla">Por el momento no se requiere reserva para el uso de las parrillas</string>
+    <string name="sin_turno_gimnasio">Por el momento no se requiere reserva para el uso del gimnasio</string>
 </resources>
