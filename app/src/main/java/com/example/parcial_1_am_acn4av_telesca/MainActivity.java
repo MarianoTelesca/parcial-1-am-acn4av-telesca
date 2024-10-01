@@ -34,129 +34,99 @@ public class MainActivity extends AppCompatActivity {
         layout_mensaje = findViewById(R.id.layout_mensaje);
 
         boton_tenis = findViewById(R.id.boton_tenis);
-        boton_tenis.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                layout_mensaje.setVisibility(View.VISIBLE);
-                TextView mensaje = new TextView(MainActivity.this);
-                mensaje.setText(R.string.mensaje_proximamente);
-                mensaje.setLayoutParams(new ActionBar.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+        boton_tenis.setOnClickListener(view -> {
+            layout_mensaje.setVisibility(View.VISIBLE);
+            TextView mensaje = new TextView(MainActivity.this);
+            mensaje.setText(R.string.mensaje_proximamente);
+            mensaje.setLayoutParams(new ActionBar.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
 
-                layout_mensaje.addView(mensaje);
+            layout_mensaje.addView(mensaje);
 
-                Handler handler = new Handler();
-                handler.postDelayed(new Runnable() {
-                    public void run() {
-                        layout_mensaje.removeView(mensaje);
-                        layout_mensaje.setVisibility(View.INVISIBLE);
-                    }
-                }, 2000);
-            }
+            Handler handler = new Handler();
+            handler.postDelayed(() -> {
+                layout_mensaje.removeView(mensaje);
+                layout_mensaje.setVisibility(View.INVISIBLE);
+            }, 2000);
         });
 
         boton_futbol = findViewById(R.id.boton_futbol);
-        boton_futbol.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                layout_mensaje.setVisibility(View.VISIBLE);
-                TextView mensaje = new TextView(MainActivity.this);
-                mensaje.setText(R.string.mensaje_proximamente);
-                mensaje.setLayoutParams(new ActionBar.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+        boton_futbol.setOnClickListener(view -> {
+            layout_mensaje.setVisibility(View.VISIBLE);
+            TextView mensaje = new TextView(MainActivity.this);
+            mensaje.setText(R.string.mensaje_proximamente);
+            mensaje.setLayoutParams(new ActionBar.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
 
-                layout_mensaje.addView(mensaje);
+            layout_mensaje.addView(mensaje);
 
-                Handler handler = new Handler();
-                handler.postDelayed(new Runnable() {
-                    public void run() {
-                        layout_mensaje.removeView(mensaje);
-                        layout_mensaje.setVisibility(View.INVISIBLE);
-                    }
-                }, 2000);
-            }
+            Handler handler = new Handler();
+            handler.postDelayed(() -> {
+                layout_mensaje.removeView(mensaje);
+                layout_mensaje.setVisibility(View.INVISIBLE);
+            }, 2000);
         });
 
         boton_basket = findViewById(R.id.boton_basket);
-        boton_basket.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                layout_mensaje.setVisibility(View.VISIBLE);
-                TextView mensaje = new TextView(MainActivity.this);
-                mensaje.setText(R.string.mensaje_proximamente);
-                mensaje.setLayoutParams(new ActionBar.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+        boton_basket.setOnClickListener(view -> {
+            layout_mensaje.setVisibility(View.VISIBLE);
+            TextView mensaje = new TextView(MainActivity.this);
+            mensaje.setText(R.string.mensaje_proximamente);
+            mensaje.setLayoutParams(new ActionBar.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
 
-                layout_mensaje.addView(mensaje);
+            layout_mensaje.addView(mensaje);
 
-                Handler handler = new Handler();
-                handler.postDelayed(new Runnable() {
-                    public void run() {
-                        layout_mensaje.removeView(mensaje);
-                        layout_mensaje.setVisibility(View.INVISIBLE);
-                    }
-                }, 2000);
-            }
+            Handler handler = new Handler();
+            handler.postDelayed(() -> {
+                layout_mensaje.removeView(mensaje);
+                layout_mensaje.setVisibility(View.INVISIBLE);
+            }, 2000);
         });
 
         boton_parrilla = findViewById(R.id.boton_parrilla);
-        boton_parrilla.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                layout_mensaje.setVisibility(View.VISIBLE);
-                TextView mensaje = new TextView(MainActivity.this);
-                mensaje.setText(R.string.sin_turno_parrilla);
-                mensaje.setLayoutParams(new ActionBar.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+        boton_parrilla.setOnClickListener(view -> {
+            layout_mensaje.setVisibility(View.VISIBLE);
+            TextView mensaje = new TextView(MainActivity.this);
+            mensaje.setText(R.string.sin_turno_parrilla);
+            mensaje.setLayoutParams(new ActionBar.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
 
-                layout_mensaje.addView(mensaje);
+            layout_mensaje.addView(mensaje);
 
-                Handler handler = new Handler();
-                handler.postDelayed(new Runnable() {
-                    public void run() {
-                        layout_mensaje.removeView(mensaje);
-                        layout_mensaje.setVisibility(View.INVISIBLE);
-                    }
-                }, 2000);
-            }
+            Handler handler = new Handler();
+            handler.postDelayed(() -> {
+                layout_mensaje.removeView(mensaje);
+                layout_mensaje.setVisibility(View.INVISIBLE);
+            }, 2000);
         });
 
         boton_cumpleanios = findViewById(R.id.boton_cumpleanios);
-        boton_cumpleanios.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                layout_mensaje.setVisibility(View.VISIBLE);
-                TextView mensaje = new TextView(MainActivity.this);
-                mensaje.setText(R.string.mensaje_proximamente);
-                mensaje.setLayoutParams(new ActionBar.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+        boton_cumpleanios.setOnClickListener(view -> {
+            layout_mensaje.setVisibility(View.VISIBLE);
+            TextView mensaje = new TextView(MainActivity.this);
+            mensaje.setText(R.string.mensaje_proximamente);
+            mensaje.setLayoutParams(new ActionBar.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
 
-                layout_mensaje.addView(mensaje);
+            layout_mensaje.addView(mensaje);
 
-                Handler handler = new Handler();
-                handler.postDelayed(new Runnable() {
-                    public void run() {
-                        layout_mensaje.removeView(mensaje);
-                        layout_mensaje.setVisibility(View.INVISIBLE);
-                    }
-                }, 2000);
-            }
+            Handler handler = new Handler();
+            handler.postDelayed(() -> {
+                layout_mensaje.removeView(mensaje);
+                layout_mensaje.setVisibility(View.INVISIBLE);
+            }, 2000);
         });
 
         boton_gimnasio = findViewById(R.id.boton_gimnasio);
-        boton_gimnasio.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                layout_mensaje.setVisibility(View.VISIBLE);
-                TextView mensaje = new TextView(MainActivity.this);
-                mensaje.setText(R.string.sin_turno_gimnasio);
-                mensaje.setLayoutParams(new ActionBar.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+        boton_gimnasio.setOnClickListener(view -> {
+            layout_mensaje.setVisibility(View.VISIBLE);
+            TextView mensaje = new TextView(MainActivity.this);
+            mensaje.setText(R.string.sin_turno_gimnasio);
+            mensaje.setLayoutParams(new ActionBar.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
 
-                layout_mensaje.addView(mensaje);
+            layout_mensaje.addView(mensaje);
 
-                Handler handler = new Handler();
-                handler.postDelayed(new Runnable() {
-                    public void run() {
-                        layout_mensaje.removeView(mensaje);
-                        layout_mensaje.setVisibility(View.INVISIBLE);
-                    }
-                }, 2000);
-            }
+            Handler handler = new Handler();
+            handler.postDelayed(() -> {
+                layout_mensaje.removeView(mensaje);
+                layout_mensaje.setVisibility(View.INVISIBLE);
+            }, 2000);
         });
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
