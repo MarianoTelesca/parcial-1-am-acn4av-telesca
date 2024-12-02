@@ -19,4 +19,7 @@
     <string name="sin_turno_parrilla" tools:ignore="Typos">Por el momento no se requiere reserva para el uso de las parrillas</string>
     <string name="sin_turno_gimnasio" tools:ignore="Typos">Por el momento no se requiere reserva para el uso del gimnasio</string>
     <string name="descripcion_icono_warning">Icono de warning</string>
+    <string name="Click_para_registrarte">¿No tienes cuenta? Haz click aquí para registrarte</string>
+    <string name="contrasenia">Contraseña</string>
+    <string name="usuario">Usuario</string>
 </resources>
