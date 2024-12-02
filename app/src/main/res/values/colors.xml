@@ -5,4 +5,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="light_green">#B0FFB0</color>
     <color name="light_yellow">#FFFFAD</color>
+    <color name="green">#388E3C</color>
+    <color name="dark_green">#2C6B2F</color>
+    <color name="background">#F4F4F4</color>
+
 </resources>

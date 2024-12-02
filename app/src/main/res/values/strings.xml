@@ -22,4 +22,6 @@
     <string name="Click_para_registrarte">¿No tienes cuenta? Haz click aquí para registrarte</string>
     <string name="contrasenia">Contraseña</string>
     <string name="usuario">Usuario</string>
+    <string name="iniciar_sesion">Iniciar sesión</string>
+    <string name="descripcion_icono_mi_cuenta">Icono de silueta que representa la sección de Mi Cuenta</string>
 </resources>

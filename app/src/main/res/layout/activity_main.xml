@@ -8,7 +8,6 @@
     android:background="@color/light_green"
     tools:context=".MainActivity">
 
-
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="169dp"
@@ -35,8 +34,19 @@
             android:text="@string/nombre_polideportivo"
             tools:layout_editor_absoluteX="57dp"
             tools:layout_editor_absoluteY="166dp" />
-
     </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/miCuentaButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/icono_cuenta"
+        android:contentDescription="@string/descripcion_icono_mi_cuenta"
+        android:background="?android:attr/selectableItemBackground"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp" />
+
 
     <ScrollView
         android:id="@+id/scrollView2"
@@ -65,7 +75,8 @@
                 android:id="@+id/boton_tenis"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/reservar_cancha_tenis"/>
+                android:text="@string/reservar_cancha_tenis"
+                style="@style/button_style"/>
 
             <ImageView
                 android:id="@+id/imagen_basket"
@@ -78,7 +89,8 @@
                 android:id="@+id/boton_basket"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/reservar_cancha_basket"/>
+                android:text="@string/reservar_cancha_basket"
+                style="@style/button_style"/>
 
             <ImageView
                 android:id="@+id/imagen_futbol"
@@ -91,7 +103,8 @@
                 android:id="@+id/boton_futbol"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/reservar_cancha_futbol"/>
+                android:text="@string/reservar_cancha_futbol"
+                style="@style/button_style"/>
 
         </LinearLayout>
     </ScrollView>
@@ -122,7 +135,8 @@
                 android:id="@+id/boton_parrilla"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/reservar_parrilla"/>
+                android:text="@string/reservar_parrilla"
+                style="@style/button_style"/>
 
             <ImageView
                 android:id="@+id/imagen_cumpleanios"
@@ -135,7 +149,8 @@
                 android:id="@+id/boton_cumpleanios"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/reservar_cumpleanios"/>
+                android:text="@string/reservar_cumpleanios"
+                style="@style/button_style"/>
 
             <ImageView
                 android:id="@+id/imagen_gimnasio"
@@ -148,7 +163,8 @@
                 android:id="@+id/boton_gimnasio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/reservar_turno_gimnasio"/>
+                android:text="@string/reservar_turno_gimnasio"
+                style="@style/button_style"/>
         </LinearLayout>
     </ScrollView>
 
