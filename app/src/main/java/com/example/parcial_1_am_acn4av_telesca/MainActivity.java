@@ -140,12 +140,9 @@ public class MainActivity extends AppCompatActivity {
 
 
         ImageButton boton_mi_cuenta = findViewById(R.id.miCuentaButton);
-        boton_mi_cuenta.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, MiCuentaActivity.class);
-                startActivity(intent);
-            }
+        boton_mi_cuenta.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, MiCuentaActivity.class);
+            startActivity(intent);
         });
     }
 }

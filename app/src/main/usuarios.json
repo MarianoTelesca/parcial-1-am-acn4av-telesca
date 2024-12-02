@@ -1,0 +1,29 @@
+[
+  {
+    "num_socio": 1,
+    "nombre": "Mariano",
+    "apellido": "Telesca",
+    "fecha_nacimiento": "1998-04-28",
+    "email": "mariano.telesca@davinci.edu.ar",
+    "password": "pass",
+    "activo": false
+  },
+  {
+    "num_socio": 2,
+    "nombre": "Maria",
+    "apellido": "Villarreal",
+    "fecha_nacimiento": "1989-06-15",
+    "email": "m.villarreal@gmail.com",
+    "password": "pass2",
+    "activo": false
+  },
+  {
+    "num_socio": 3,
+    "nombre": "Lionel",
+    "apellido": "Messi",
+    "fecha_nacimiento": "1990-06-23",
+    "email": "messi@gmail.com",
+    "password": "pass3",
+    "activo": false
+  }
+]

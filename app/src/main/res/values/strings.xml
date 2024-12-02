@@ -29,4 +29,16 @@
     <string name="placeholder_nombre">Mariano Telesca</string>
     <string name="boton_volver">Volver</string>
     <string name="cerrar_sesion">Cerrar sesión</string>
+    <string name="asteriscos">*******</string>
+    <string name="titulo_reservas_perfil">Reservas previas y actuales:</string>
+    <string name="placeholder_fecha_nacimiento">Fecha de nacimiento: 28/04/1998</string>
+    <string name="placeholder_mail">Correo electrónico: mariano.telesca@davinci.edu.ar</string>
+    <string name="placeholder_numero_socio">Número de socio: 000001</string>
+    <string name="titulo_registro">Registro de usuario</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="fecha_de_nacimiento">Fecha de nacimiento</string>
+    <string name="correo_electronico">Correo electrónico</string>
+    <string name="confirmar_contrasenia">Confirmar contraseña</string>
+    <string name="registrarse">Registrarse</string>
 </resources>
