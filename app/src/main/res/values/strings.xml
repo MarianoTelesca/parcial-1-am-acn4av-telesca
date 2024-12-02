@@ -24,4 +24,9 @@
     <string name="usuario">Usuario</string>
     <string name="iniciar_sesion">Iniciar sesión</string>
     <string name="descripcion_icono_mi_cuenta">Icono de silueta que representa la sección de Mi Cuenta</string>
+    <string name="descripcion_foto_de_perfil">Foto de perfil</string>
+    <string name="sin_reservas">No posee ninguna reserva por el momento.</string>
+    <string name="placeholder_nombre">Mariano Telesca</string>
+    <string name="boton_volver">Volver</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
 </resources>
